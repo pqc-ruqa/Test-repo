@@ -1,0 +1,5 @@
+# PQC-SCAN TARGET: Modern PQC Dependencies
+liboqs-python>=0.8.0
+cryptography>=41.0.0
+# Potential target for supply chain analysis
+flask==2.0.1

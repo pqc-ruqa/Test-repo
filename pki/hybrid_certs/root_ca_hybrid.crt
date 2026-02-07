@@ -1,0 +1,6 @@
+-----BEGIN CERTIFICATE-----
+MIIDIjCCAgqgAwIBAgIJAO... (Truncated for brevity) ...
+Subject: CN=PQC-Root-CA, O=TestBank-PQC
+Signature Algorithm: dilithium2
+(This is a mock certificate structure for testing parsing logic)
+-----END CERTIFICATE-----

@@ -1,0 +1,14 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.bank</groupId>
+  <artifactId>legacy-backend</artifactId>
+  <version>1.0.0</version>
+  <dependencies>
+    <!-- PQC-SCAN TARGET: Legacy Bouncy Castle (Vulnerable to timing attacks) -->
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>1.60</version> 
+    </dependency>
+  </dependencies>
+</project>
