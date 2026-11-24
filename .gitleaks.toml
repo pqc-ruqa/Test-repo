@@ -1,0 +1,14 @@
+# Gitleaks configuration for pqc-ruqa/Test-repo
+# Keep all default rules; allow only the intentionally fake test keys in pki/.
+title = "pqc-ruqa Test-repo"
+
+[extend]
+useDefault = true
+
+[[allowlists]]
+targetRules = ["private-key"]
+description = "Intentionally fake test keys used as CBOM test data (not usable, not used anywhere)"
+paths = [
+  '''^pki/PQC_keys/dilithium2_private\.pem$''',
+  '''^pki/RSA_keys/private_2048\.pem$''',
+]

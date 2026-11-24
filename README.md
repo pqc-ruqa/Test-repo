@@ -28,6 +28,9 @@ The goal is to test the scanner's ability to generate an accurate **CBOM (Crypto
     └── hybrid_certs/       # Experimental Hybrid Certificates
 ```
 
+> [!NOTE]
+> **Test keys are fake.** The key files in `pki/PQC_keys/` (`dilithium2_private.pem`, `kyber768_public.bin`) and the empty placeholder `pki/RSA_keys/private_2048.pem` are intentionally fake test data for CBOM detection. They are not usable as keys and are not used by any system. Secret scanners may flag them; this is expected. See [SECURITY.md](SECURITY.md).
+
 ## 🧪 Ground Truth (Expected Results)
 
 Use this table to verify the accuracy of the generated CBOM.
